@@ -1,7 +1,3 @@
-# Dir-Spy Project
-
-### Simple script
-```javascript
 const fs = require("fs");
 const chalk = require('chalk'); // Terminal string styling done right
 const log = console.log;
@@ -51,5 +47,3 @@ checkDir()
 .catch(function (reason) {
     log(reason);
 });
-
-```
